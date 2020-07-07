@@ -1,0 +1,27 @@
+{
+  "name": "css-split",
+  "version": "0.1.0",
+  "description": "Node script for code-splitting CSS files",
+  "keywords": [
+    "CSS",
+    "HTML",
+    "code-splitting",
+    "performance"
+  ],
+  "author": "Tomas Pustelnik (https://pustelto.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/Pustelto/css-split",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pustelto/css-split.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "glob": "7.1.6",
+    "jsdom": "16.2.2",
+    "purgecss": "2.3.0"
+  }
+}
