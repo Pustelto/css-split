@@ -1,4 +1,4 @@
-# [WORK IN PROGRESS] css-split
+# [WIP] css-split
 
 *Automatic CSS code-splitting for static generated sites.*
 
@@ -40,6 +40,9 @@ cssSplit(CONFIG);
 - `targetFolder` - path to the folder wcontaining final CSS and HTML files, usually a `dist` or `build` folder.
 - `html` - array of strings or objects with paths to HTML files. Paths are relative to `targetOutput`. Each item in the array produce one CSS file for the HTML files cover by that path glob. Can be direct path to one HTML file or a glob to contain multiple HTML files in a folder. Accepts any valid [minimatch](https://github.com/isaacs/minimatch) pattern (uses [Glob package](https://www.npmjs.com/package/glob) to find a files). When using object, it has to have shape `{path: <glob_pattern>, outputName: <string>}`. path prop contain glob for HTML and outputName will be used to name a CSS chunk. This is mainly useful for glob pattern selecting multiple HTML files in a folder (eg. you want to output one CSS file for all articles, instead of unique CSS for each article).
 - `cssPath` - path to a CSS file which should be code splitted. It's relative to `targetOutput`
+
+## Real life example
+- [My personal blog](https://pustelto.com), source code is here: [blog's repo](https://github.com/Pustelto/personal_web)
 
 ## Contribution
 
