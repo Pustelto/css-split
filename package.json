@@ -1,5 +1,5 @@
 {
-  "name": "css-split",
+  "name": "@pustelto/css-split",
   "version": "0.1.0",
   "description": "Node script for code-splitting CSS files",
   "keywords": [
