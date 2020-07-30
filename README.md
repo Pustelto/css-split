@@ -1,4 +1,4 @@
-# [WIP] css-split
+# CSS-Split
 
 *Automatic CSS code-splitting for static generated sites.*
 
